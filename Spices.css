@@ -1,0 +1,117 @@
+body{
+font-family: sans-serif;
+background-color:gray ;
+}
+main{
+    background-color: gray;
+    position: relative;
+    margin: 1px;
+}
+.container{
+    height: 16px;
+    margin: 0px;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    width: 1244px;
+    height: 200px;
+    border-radius: 30px;
+    overflow-x:scroll;
+    /* position: relative; */
+    scroll-behavior: smooth;
+}
+
+.image{
+    /* height: 50px;
+    width: 50px; */
+    padding: 2px;
+    border-radius: 15px;
+}
+
+header{
+    margin:0px;
+    padding:1px; 
+}
+
+
+.btn-box{
+    width: 1000px;
+    position: relative;
+    overflow: none;
+}
+.search-bar{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 100px;
+}
+.search-bar button {
+    padding: 10px 20px;
+    margin-left: 5px;
+    background-color: #007bff; /* Button color */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+search-bar button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+.search-bar input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.product-card {
+    background-color: rgb(84, 189, 189); /* Darker card background */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px; /* Fixed width for cards */
+    text-align: center;
+    transition: transform 0.2s;
+}
+.product-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.product-card img {
+    max-width: 100%; /* Responsive image */
+    border-radius: 5px;
+}
+.second-product-list-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.second-card-list{
+    background-color: darkkhaki;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.second-card-list-sectioc.second-card-list-sectioc:cover{
+    transform: scale(1.05);
+}
+.second-card-list img{
+    max-width: 100%;
+    border-radius: 5px;
+}
